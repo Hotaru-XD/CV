@@ -1,0 +1,357 @@
+@font-face {
+    font-family: 'Myriad Pro Light';
+    src: url('../fonts/MyriadPro-Light.eot');
+    src: url('../fonts/MyriadPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Light.woff') format('woff'),
+    url('../fonts/MyriadPro-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.line-around {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    border: 1px solid #3d6cb0;
+    margin: 0 auto;
+}
+
+.main-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: #3d6cb0;
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+}
+
+p, span {
+    font-family: 'Myriad Pro Light'
+}
+
+.profile-container {
+    margin-bottom: 15px;
+}
+
+.profile-header {
+    display: flex;
+}
+
+.container {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.profile {
+    width: 40%;
+    padding: 20px;
+    vertical-align: top;
+}
+
+.user-info-container {
+    text-align: center;
+}
+
+.user-info p:first-child {
+    font-size: 21px;
+    margin: 10px 0 0 0;
+} 
+
+.user-info p:nth-child(2) {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0;
+} 
+
+.user-info p:last-child {
+    font-weight: bold;
+    font-size: 12px;
+    margin: 5px 0 0 0;
+}
+
+.header-text {
+    display: inline-block;
+    margin: 0;
+    font-weight: bold;
+    color: #3d6cb0;
+    font-size: 20px;
+    position: relative;
+    bottom: 12px;
+}
+
+.header-img {
+    display: inline-block;
+}
+
+hr {
+    bottom: 9px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    border: 0;
+    height: 1px;
+    background-color: #3d6cb0;
+}
+
+.line {
+    margin-left: 10px;
+    width: 100%;
+    flex: 1;
+    position: relative;
+    top: 21px;
+}
+
+.main-text {
+    font-size: 11px;
+    margin: 0;
+    color: black;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.contact-label {
+    display: inline-block;
+    width: 30%;
+    font-size: 14px;
+    color: #3d6cb0;
+    font-weight: bold;
+} 
+
+.contact-value {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.contact-data div p {
+    margin: 15px 0 0 0;
+}
+
+.contact-data div:first-child p {
+    margin: 0;
+}
+
+.skills-text {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5 0 0 0;
+}
+
+.skills div { 
+    text-align: center;
+}
+
+.elipse img{
+    width: 8px;
+    height: 8px;
+    position: relative;
+}
+
+.study {
+    width: 60%;
+    padding: 20px;
+}
+
+.lists {
+    margin: 0;
+    padding-inline-start: 15px;
+    list-style-type: none;
+}
+
+.study-degree {
+    font-size: 12px;
+    font-weight: bold;
+    color: #3d6cb0;
+    margin: 0;
+}
+
+.study-lists {
+    font-size: 11px;
+    color: black;
+}
+
+.uni-name {
+    color: black;
+    margin: 5px 0 5px 0;
+}
+
+.job {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.software-first-block {
+    display: inline-block;
+    width: 50%;
+}
+
+.software-heads {
+    font-size: 12px;
+    display: inline-block;
+    margin: 0 0 3px 0;
+}
+
+.img-grey-bgd {
+    height: 10px;
+}
+
+.blue-elipse {
+    border-radius: 4px;
+    background-color: #3d6cb0;
+    display: inline-block;
+    width: 8px;
+    height: 8px; 
+}
+
+.grey-elipse {
+    border-radius: 4px;
+    background-color: lightgray;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+}
+
+/* .img-blue {
+    height: 10px;
+    position: relative;
+    bottom: 10px;
+    display: block;
+} */
+
+.software-second-block {
+    display: inline-block;
+}
+
+.gray-line {
+    background-color: lightgray;
+    position: relative;
+    height: 10px;
+    width: 130px;
+}
+
+.blue-line {
+    height: 10px;
+    background-color: #3d6cb0;
+    position: relative;
+    bottom: 10px;
+}
+
+/* .software-first-block .blue-line:first-child {
+    width: 20px;
+    height: 10px;
+    position: relative;
+    background-color: #3d6cb0;
+} */
+
+@media all and (min-width: 560px) and (max-width: 768px) {
+    .main-text, .user-info,  .user-info p:first-child,  .user-info p:last-child, .user-info p:nth-child(2), .contact-label, .contact-value, .skills-text, .elipse, .software-heads{
+        font-size: 1rem;
+    }
+     
+    .main-text > .bold-text {
+        font-size: 1.5rem;
+    }
+    
+    li p:not(:last-child) {
+        font-size: 1rem;
+    }
+
+    .study-degree > .study-lists {
+        font-size: 1rem;
+    }
+
+    .job > .study-lists {
+        font-size: 1rem;
+    }
+
+    /* li > p {
+        font-size: 40px !important;
+    } */
+
+    .header-text{
+        font-size: 2rem;
+    }
+
+    .container {
+        display: block; 
+        width: 100%;     
+    }
+
+    .study {
+        float: left;
+    }
+
+    .header-img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .line {
+        top: 33px;
+    }
+}
+
+@media all and (max-width: 560px) {
+    
+    .main-text, .user-info,  .user-info p:first-child,  .user-info p:last-child, .user-info p:nth-child(2), .contact-label, .contact-value, .skills-text, .elipse, .software-heads{
+        font-size: 1rem;
+    }
+    
+    /* .blocks {
+        min-width: 250px;
+    } */
+     
+    .main-text > .bold-text {
+        font-size: 1.5rem;
+    }
+    
+    li p:not(:last-child) {
+        font-size: 0.8rem;
+    }
+
+    .study-degree > .study-lists {
+        font-size: 0.7rem;
+    }
+
+    .job > .study-lists {
+        font-size: 0.7rem;
+    }
+
+    .header-text{
+        font-size: 1.3rem;
+        bottom: 10px;
+    }
+
+    .container {
+        display: block; 
+        width: 100%;     
+    }
+
+    .study {
+        float: left;
+    }
+
+    .header-img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .line {
+        top: 18px;
+    }
+
+    .line-around {
+        width: 60px;
+        height: 60px;
+    }
+
+    .main-circle {
+        width: 55px;
+        height: 55px;
+        top: 3px;
+    }
+}
